@@ -6,7 +6,7 @@ var bot = new Discord.Client();
 
 bot.on("ready", function() {
     bot.user.setGame("Sinqs_BOT, !help");
-    console.log("Le bot a bien ete connecte");
+    console.log("Le bot a bien ete conecte");
 });
 
 bot.on("message", async function(message) {
@@ -25,7 +25,7 @@ bot.on("message", async function(message) {
                  title: '',
                  fields: [{
                      name: "Lien d'invitation discord",
-                     value: "https://discord.gg/A8WnNxv",
+                     value: "https://discord.gg/PjDXe3a",
                      inline: false
                 }],
                 footer: {
@@ -37,4 +37,4 @@ bot.on("message", async function(message) {
     }    
 });       
 
-bot.login("NTgxNTE2MDYwODUxODMwODAx.XO9EXg.U7BfZb2bM28HFuDyaJfdXrXNRjY");
+bot.login("NTgxNTE2MDYwODUxODMwODAx.XPAVWA.lEhFujOCqb1K2fm_8-c9gkAzBkc");
