@@ -32,8 +32,8 @@ bot.on("message", async function(message) {
                         footer: "Partager ce lien à tous vos amis !";
                 },
             }  
-            });    
-            break;
+        });    
+        break;
     }    
 });       
 
