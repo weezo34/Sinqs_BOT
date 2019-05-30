@@ -6,7 +6,7 @@ var bot = new Discord.Client();
 
 bot.on("ready", function() {
     bot.user.setGame("Sinqs_BOT, !help");
-    console.log("Le bot a bien ete conecte");
+    console.log("Le bot a bien ete connecte");
 });
 
 bot.on("message", async function(message) {
